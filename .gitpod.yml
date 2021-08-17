@@ -1,0 +1,9 @@
+image:
+        file: .gitpod.Dockerfile
+tasks:
+  - init: flutter channnel stable
+          flutter upgrade
+vscode:
+  extensions:
+    - dart-code.dart-code@3.20.1
+    - dart-code.flutter@3.20.0
