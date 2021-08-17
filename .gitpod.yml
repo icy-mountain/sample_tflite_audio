@@ -1,7 +1,7 @@
 image:
         file: .gitpod.Dockerfile
 tasks:
-  - init: flutter channnel stable
+  - init: flutter channel stable
           flutter upgrade
 vscode:
   extensions:
